@@ -17,6 +17,12 @@ h3 {
 p {
    color: midnightblue;
 }
+h1 {font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+h2 {font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+h3 {font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
 p {
-   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
  }
