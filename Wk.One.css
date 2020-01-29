@@ -5,6 +5,9 @@ body
  h1 {
    color: midnightblue;
 }
+{
+   border-left: 6px solid midnightblue;
+}
 
 h2 {
    color: indigo;
@@ -33,7 +36,4 @@ h2 {font-size: 2em;
 h3 {font-size: 1.5em;
 }
 p {font-size: 1.5em;
-}
-h1 {
-   border-left: 6px solid midnightblue;
 }
