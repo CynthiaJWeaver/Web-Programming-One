@@ -4,8 +4,6 @@ body
  }
  h1 {
    color: midnightblue;
-
-   border-bottom: 6px solid indigo
 }
 
 h2 {
@@ -35,4 +33,7 @@ h2 {font-size: 2em;
 h3 {font-size: 1.5em;
 }
 p {font-size: 1.5em;
+}
+h1 {
+   border-bottom: 6px solid indigo;
 }
