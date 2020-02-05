@@ -6,7 +6,7 @@
    grid-template-columns: 24% 31% 45%;
    grid-template-areas:
    "name welcome welcome"
-   "header content1 content2"
+   "assign content1 content2"
    "sidebar content3 content4"
    "footer footer footer";   
 }
@@ -19,8 +19,9 @@
    justify-self: center;
 
 }
-.header{
-   grid-area: header;
+.assign {
+   grid-area: assign;
+
 }
 /*Because of the fixed img sizes, this does not work minimized window*/
 .content1 {
@@ -57,7 +58,7 @@
    grid-area: content3;
    justify-self: center;
    text-align: center;
-   margin: 100px auto 10px auto;
+   margin: 120px auto 10px auto;
    padding: 10px;
    border: 5px solid midnightblue;
    border-radius: 10px;
@@ -68,7 +69,7 @@
    grid-area: content4;
    justify-self: center;
    text-align: center;
-   margin: 100px auto 10px auto;
+   margin: 120px auto 10px auto;
    padding: 10px;
    border: 5px solid midnightblue;
    border-radius: 10px;
@@ -128,9 +129,56 @@ h1 {
 .summit {
    float: right;
 }
+a:link {
+   text-decoration: none;
+ }
+ 
+ a:visited {
+   text-decoration: none;
+ }
+ 
+ a:hover {
+   text-decoration: underline;
+ }
+ 
+ a:active {
+   text-decoration: underline;
+ }
+ a:link {
+   color: midnightblue;
+   }
+
+   a:visited {
+   color: rgb(171, 142, 201);
+   }
+
+
+   a:hover {
+   color: lightblue;
+   }
+
+   a:active {
+   color: blue;
+   }
+
      
-      
-      
+   /*I need to organize my css code into style sheets*/
+   /*the container below is under construction*/
+.grid-container {
+   display: grid;
+   justify-content: space-evenly;
+   grid-template-columns: 1fr 1fr 1fr; 
+   grid-gap: 10px;
+    background-color: #2196F3;
+   padding: 10px;
+    }
+    
+   .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    }   
           
    
       
