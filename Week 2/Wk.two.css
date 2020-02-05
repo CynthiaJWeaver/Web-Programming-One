@@ -1,3 +1,47 @@
+*{margin: 2px;
+   padding: 2px;
+}
+.grid {
+   display: grid;
+   grid-template-columns: 25% 30% 45%;
+   grid-template-areas:
+   "name welcome welcome"
+   "header content1 content2"
+   "sidebar content3 content4"
+   "footer footer footer";   
+}
+.name {
+   grid-area: name;
+   justify-self: left;
+}
+.welcome {
+   grid-area: welcome;
+   justify-self: center;
+}
+.header{
+   grid-area: header;
+}
+.content1 {
+   grid-area: content1;
+}
+.content2 {
+   grid-area: content1;
+}
+.content2 {
+   grid-area: content2;
+}
+.sidebar {
+   grid-area: sidebar;
+}
+.content3 {
+   grid-area: content3;
+}
+.footer{
+   grid-area: footer;
+}
+ .grid div .header {
+    background-color: rgb(171, 142, 201);
+ }  
 body
  {
     background-color: rgb(255, 239, 213)
@@ -11,9 +55,11 @@ h2 {
 }
 
 h3 {
+   color: midnightblue;
+}
+h4 {
    color: rebeccapurple;
 }
-
 p {
    color: midnightblue;
 }
@@ -22,6 +68,8 @@ h1 {font-family: "Trebuchet MS", Helvetica, sans-serif;
 h2 {font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 h3 {font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+h4 {font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 p {
    font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -32,19 +80,18 @@ h2 {font-size: 2em;
 }
 h3 {font-size: 1.5em;
 }
-p {font-size: 1.5em;
+p {font-size: 1.2em;
 }
 h1 {
    border-bottom: 6px solid indigo;
 }
-div {
-   height: 400px;
-   width: 600px;
-   background-color: rebeccapurple;}
-   p {
-      height: 25%;
-      Width: 75%;
-      background-color: rgb(255, 239, 213);
-   } 
-   
 
+.summit {
+   float: left;
+}
+     
+      
+      
+          
+   
+      
